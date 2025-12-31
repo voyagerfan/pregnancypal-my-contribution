@@ -1,0 +1,93 @@
+.message-main-body{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem
+}
+
+.message-filter-and-sort {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.message-row:hover {
+    scale: 1.01;
+    background-color: var(--brand-light) ;
+    cursor: pointer;
+}
+
+.newEmailHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 100px; 
+    gap: 2rem;
+}
+
+.newMessageContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 400px; 
+}
+
+.form-buttons-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 3rem;
+}
+
+.single-email-view-closed {
+    transform: translateX(100%);
+    transition: transform 0.4s ease;
+}
+
+.single-email-view-open {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    z-index: 10;
+    gap: 2rem;
+}
+
+.messages-parent {
+    position: relative;
+}
+
+.email-back-btn {
+    width: 200px;
+}
+
+.single-email-msg-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 0.5rem; 
+}
+
+.single-email-message-box {
+    height: 100%;
+}
+
+.progress-indicator-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.sender-receiver-field {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.sender-receiver-field > :first-child {
+    width: 50px
+}

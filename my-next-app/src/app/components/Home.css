@@ -1,0 +1,41 @@
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.home-title {
+    display: block;
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    padding-top: 50px;
+}
+
+.title-text-overlap{
+    position: absolute;
+    top: 77%;           
+    left: 22%;
+    font-size: 50px;
+    white-space: nowrap;
+    font-family: var(--font-sans);
+    color: var(--brand)  
+}
+
+.button-row {
+    display: flex;
+    flex-direction: row;
+    gap: 15rem;
+    padding-top: 50px;
+}
+
+.login-btn {
+    width: 300px !important;
+    padding: 4px;
+}
+
+.nav-container {
+    padding-top: 18px;
+}
